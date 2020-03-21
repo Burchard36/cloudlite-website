@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cloud Lite | Register</title>
+
+        <!-- Bulma CSS -->
+        <link rel="stylesheet" href="../css/bulma.css">
+        <!-- JavaScript -->
+        <script src="./index.js"></script> 
+        <!-- JQuery -->
+        <script src="../jquery.js"></script>
+    </head>
+    <body>
+        <section class="hero is-fullheight is-dark is-bold">
+            <div class="hero-head">
+                <br>
+                <nav class="navbar">
+                    &nbsp&nbsp&nbsp&nbsp
+                    <a href="https://cloudlite.net/">
+                        <img src="logo.PNG" alt="Logo" class="image">
+                    </a>
+                </nav>
+
+                <div class="container">
+                    <h1 class="title has-text-centered"> 
+                        Register an Account
+                    </h1>
+                    <h2 class="subtitle has-text-centered">
+                        Already have an account? <a href="https://cloudlite.net/login" class="link has-text-info">Login.</a>
+                    </h2>
+
+                    <div class="columns is-centered">
+                        <div class="column is-4">
+                            <article class="tile is-child notification is-light">
+                                <div class="field">
+                                    <!-- Enter Username Field -->
+                                    <label class="label">Username</label>
+                                    <div class="control">
+                                      <input id="Username" class="input" type="username" placeholder="Username">
+                                    </div>
+                                    <p id="Username-Error" class="has-text-danger has-text-left"></p><br>
+        
+                                    <!-- Enter Email Field -->
+                                    <label class="label">Email</label>
+                                    <div class="control">
+                                        <input id="Email" class="input" type="email" placeholder="Email">
+                                    </div>
+                                    <p id="Email-Error" class="has-text-danger has-text-left"></p><br>
+        
+                                    <!-- Enter Password Field -->
+                                    <label class="label">Password</label>
+                                    <div class="control">
+                                        <input id="Password" class="input" type="password" placeholder="Password">
+                                    </div>
+                                    <p id="Password-Error" class="has-text-danger has-text-left"></p><br>
+        
+                                    <!-- Confirm Password Field -->
+                                    <label class="label">Confirm Password</label>
+                                    <div class="control">
+                                        <input id="ConfirmPassword" class="input" type="password" placeholder="Confirm Password">
+                                    </div>
+                                    <p id="Confirm-Password-Error" class="has-text-danger has-text-left"></p><br>
+
+                                    <!-- Button will send requests -->
+                                    <button class="button is-link is-fullwidth" onclick="register()">Register</button>
+                                    <p id="General-Error" class="has-text-danger has-text-left"></p>
+                                </dic>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-body">
+
+                
+            </div>
+            
+
+        </section>
+          
+    </body>
+</html>

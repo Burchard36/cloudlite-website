@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Cloud Lite | User Page</title>
+
+        <!-- Bulma CSS -->
+        <link rel="stylesheet" href="../css/bulma.css">
+        <!-- JavaScript -->
+        <script src="./index.js"></script>
+        <!-- JQuery -->
+        <script src="../jquery.js"></script>
+    </head>
+    <body onload="loadPage()">
+
+    <section class="hero is-dark is-medium">
+        <!-- Hero head: will stick at the top -->
+        <div class="hero-head">
+            <nav class="navbar">
+                <div class="container">
+                    <div class="navbar-brand">
+                        <a class="navbar-item" href="https://cloudlite.com/user">
+                            <img src="logo.PNG" alt="Logo">
+                        </a>
+                        <span class="navbar-burger burger" data-target="navbarMenuHeroA">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                    </span>
+                    </div>
+                    <div id="navbarMenuHeroA" class="navbar-menu">
+                        <div class="navbar-end">
+                            <a class="navbar-item is-active" href="https://cloudlite.net">
+                                Storages
+                            </a>
+                            <a class="navbar-item" href="https://cloudlite.net/">
+                                Idk
+                            </a>
+                            <a class="navbar-item" href="https://cloudlite.net/">
+                                Account
+                            </a>
+                            <span class="navbar-item">
+                        <a class="button is-info is-inverted" href="https://cloudlite.net/">
+                          <span><strong>Sign Out (WIP)</strong></span>
+                        </a>
+                      </span>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section><br>
+
+    <nav class="level is-mobile">
+        <div class="level-item has-text-centered">
+            <div>
+                <p class="heading">Your Storage Mediums</p>
+                <p class="title">0</p>
+            </div>
+        </div>
+    </nav>
+    <div class="tile is-ancestor is-vertical">
+        <div class="tile is-parent" id="services">
+            <article class="tile is-child box" id="service">
+                <p class="title" id="title">No Storage Mediums Detected on your account...</p>
+                <p class="subtitle" id="subtitle">Why not <a href="https://cloudlite.net/" class="link has-text-info">Create One?</a></p>
+            </article>
+        </div>
+    </div>
+    </body>
+</html>
